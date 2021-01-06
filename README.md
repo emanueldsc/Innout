@@ -2,7 +2,7 @@
 
 ### Sistema de ponto eletrônico desenvolvido com php puro
 
-[(https://img.shields.io/github/languages/count/emanueldsc/Innout?color=purple&label=Linguagens&logo=Innout&logoColor=red)](https://img.shields.io/github/languages/count/emanueldsc/Innout?color=purple&label=Linguagens&logo=Innout&logoColor=red)
+![GitHub language count](https://img.shields.io/github/languages/count/emanueldsc/Innout?color=purple&label=Linguagens&logo=Innout&logoColor=red)
 
 ## Prints
 
