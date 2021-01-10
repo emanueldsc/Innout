@@ -6,12 +6,7 @@
 
 ## Prints
 
-#### Login
-
-<<<<<<< HEAD
-## Login
+### Login
 
 ![Login](screenshots/login.png)
-=======
-![Login](screenshots/login.png)
->>>>>>> bfb7a122b3e77c4dd7c3017c80c4809cc27d4340
+
