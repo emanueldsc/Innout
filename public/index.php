@@ -1,6 +1,3 @@
 <?php
-$pathConfig = dirname(__FILE__, 2) .  '/src/config/config.php';
-include_once($pathConfig);
-$pathUser = dirname(__FILE__, 2) .  '/src/views/login.php';
-include_once($pathUser);
-
+include_once(dirname(__FILE__, 2) .  '/src/config/config.php');
+include_once(CONTROLLERS_PATH . '/login.php');

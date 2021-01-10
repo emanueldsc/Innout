@@ -25,6 +25,7 @@ class Model
         return $this->values[$key];
     }
 
+    // Essa função informa oque deve ser feito toda vez que uma chave nova for atribuida ao Model;
     public function __set($key, $value)
     {
         $this->values[$key] = $value;
@@ -41,6 +42,13 @@ class Model
             }
         }
         return $objects;
+    }
+    
+    public static function getOne($filters = [], $columns = '*')
+    {
+        $class = get_called_class();
+        $result = static::getResoultSetFromSelect($filters, $columns);
+        return $result ? new $class($result->fetch_assoc()) : null;
     }
 
     public static function getResoultSetFromSelect($filters = [], $columns = '*')
